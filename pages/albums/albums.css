@@ -66,3 +66,43 @@
     color: dodgerblue;
     transition: .5s;
 }
+
+.album_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0px 100px;
+}
+
+.album_card {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+.album_card>h3 {
+    color: dodgerblue;
+    font-size: 28px;
+}
+
+.album_card>h4 {
+    color: red;
+    font-size: 20px;
+}
+
+.album {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
