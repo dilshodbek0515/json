@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 35px;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.item {
+    list-style-type: none;
+    color: gray;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.item:hover {
+    color: dodgerblue;
+    transition: .5s;
+}
+
+.click {
+    width: 120px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.click:hover {
+    background: none;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    transition: .5s;
+}
